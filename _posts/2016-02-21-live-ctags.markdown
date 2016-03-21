@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Auto generate Rails coffeescript ctags"
+title:  "Always up to date Rails and coffeescript ctags"
 date:   2016-02-21
 categories: ctags bash
 ---
