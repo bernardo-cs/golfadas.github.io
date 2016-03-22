@@ -10,7 +10,7 @@ Generating ctags for ruby scripts and used gems on rails projects is easy with:
 ctags -R --languages=ruby --exclude=.git --exclude=log . $(bundle list --paths)
 {% endhighlight %}
 
-But, this doesn't generate tags for your coffescript files. In order to have ctags for coffeescript we need to use [Coffeetags][coffe-tags]. After installed, generating coffescript tags is also easy with:
+But, this doesn't generate tags for your coffescript files. In order to have ctags for coffeescript we need to use [Coffeetags](coffe-tags). After installed, generating coffescript tags is also easy with:
 
 {% highlight bash %}
 coffeetags -R
