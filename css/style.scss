@@ -1036,3 +1036,8 @@ $size-header: 23em;
   .strikeout{
     text-decoration: line-through;
   }
+
+  /* Blog images */
+  .blog-image img {
+    width: 100%;
+  }
