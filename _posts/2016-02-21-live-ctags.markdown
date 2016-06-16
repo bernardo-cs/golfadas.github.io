@@ -4,11 +4,15 @@ title:  "Always up to date Rails and coffeescript ctags"
 date:   2016-02-21
 categories: ctags bash
 ---
+Ctags are awesome, and if you are using vim you should definitely use them in order to have a better source code navigation. The problem with rails is that, we need to generate tags for our ruby, coffescript scripts and used gems.
+
+Gems? Why would you need to navigate into gems source code? Well, because you can, is easy and lets you dive into third party code. Did I say that its easy? Here is an example of entering tag aka `ctrl + ]` in a `has_many` active record relation:
+
+![Entering a tag](/images/has_many_entertag.gif)
+
 Generating ctags for ruby scripts and used gems on rails projects is easy with:
 
-{% highlight bash %}
-ctags -R --languages=ruby --exclude=.git --exclude=log . $(bundle list --paths)
-{% endhighlight %}
+`ctags -R --languages=ruby --exclude=.git --exclude=log . $(bundle list --paths)`
 
 But, this doesn't generate tags for your coffescript files. In order to have ctags for coffeescript we need to use [Coffeetags](coffe-tags). After installed, generating coffescript tags is also easy with:
 
