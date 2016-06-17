@@ -8,7 +8,7 @@ Ctags are awesome, and if you are using vim you should definitely use them in or
 
 Gems? Why would you need to navigate into gems source code? Well, because you can, is easy and lets you dive into third party code. Did I say that its easy? Here is an example of entering tag aka `ctrl + ]` in a `has_many` active record relation:
 
-![Entering a tag](/images/has_many_entertag.gif)
+![Entering a tag](/images/has_many_entertag.gif){: .blog-image }
 
 Generating ctags for ruby scripts and used gems on rails projects is easy with:
 
